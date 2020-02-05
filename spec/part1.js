@@ -474,10 +474,7 @@
           // Add a line here that makes this test pass
           // for a working implementation of reduce
           // memo = _.identity(item);
-          for (var i = 0; i < item.length; i++) {
-            orderTraversed.push(item[i]);
-            memo += item[i];
-          }
+          orderTraversed.push(item);
           // memo += orderTraversed.push(item);
           return memo;
         }, 10);
